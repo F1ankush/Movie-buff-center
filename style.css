@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(1, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    color:#5481c3
+  }
+  
+  .header img {
+    width: 100px;
+
+  }
+  
+  /* Introduction Section */
+  .intro {
+    margin: 20px auto;
+    width: 80%;
+    color:#25aeae
+  }
+  
+  /* Poster Section with 4 posters per row (2x2 grid) */
+  .poster-section {
+    margin-bottom: 20px;
+  }
+  
+  .poster-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .poster-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .poster-container img:hover {
+    transform: scale(1.1);
+  }
+  /* Character container styling */
+.character-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 30px;
+    justify-content: center;
+    margin: 40px;
+  }
+  
+  /* Individual character card styling */
+  .character-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Character image styling */
+  .character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Character name styling */
+  .character-card h3 {
+    color: #00b4d8;
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  
+  /* Character text styling */
+  .character-card p {
+    color: #cccccc;
+    font-size: 16px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .character-card {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .character-card h3 {
+      font-size: 20px;
+    }
+  }
+  
+  
+  /* Trailer Section */
+  .trailer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+  
+  /* Quote of the Day Section */
+  /* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Quiz section styling */
+  .quiz-container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .quiz-container h1 {
+    font-size: 32px;
+    color: #00b4d8;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .question:hover {
+    background-color: #333;
+  }
+  
+  .question p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #00b4d8;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0077b6;
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #00ff00;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .quiz-container {
+      width: 90%;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  
+  
+  
+  
